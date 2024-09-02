@@ -6,9 +6,6 @@ const InputControl = ({label,...props}) => {
     <>
   <div className={styles.container}>
 
-    {label && <label> {label} </label>}
-    <input type='text' {...props} />
-
   </div>
     </>
   )
